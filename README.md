@@ -2,8 +2,13 @@
 This code will extract info from : https://storpool.com/pdf-materials and scrap all the PDFs from the page and put it in a folder
 
 **Prerequisite:**
-pip install Scrapy
 
+* pip install Scrapy
+
+ **How to Run:**
+ On Cmd, go to the directory where the spider is saved and  run :
+ scrapy crawl book
+ 
 **Overview**
 Scrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.
 
@@ -14,9 +19,7 @@ This repo is an example of webcrawler built using the Scrapy python framework.  
  - [Scrapy Framework](https://github.com/scrapy/scrapy/)
  - [Wiki](https://github.com/scrapy/scrapy/wiki)
  
- **How to Run:**
- On Cmd, go to the directory where the spider is saved and  run :
- scrapy crawl book
+
 
 
 
